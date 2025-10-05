@@ -1,0 +1,23 @@
+# raw data (keep out of git)
+data/raw/**
+!data/raw/README.md
+!data/raw/.gitkeep
+
+# external large refs (pdfs/videos)
+data/external/**
+!data/external/README.md
+!data/external/.gitkeep
+
+# generated outputs
+data/derivatives/**
+reports/figures/**
+reports/slides/**
+
+# python/jupyter noise
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+.env
+.pytest_cache/
+.DS_Store
