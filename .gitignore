@@ -9,7 +9,6 @@ data/external/**
 !data/external/.gitkeep
 
 # generated outputs
-data/derivatives/**
 reports/figures/**
 reports/slides/**
 
