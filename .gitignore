@@ -20,3 +20,15 @@ __pycache__/
 .env
 .pytest_cache/
 .DS_Store
+
+# data/derivatives caches
+data/derivatives/*.npy
+data/derivatives/*.npz
+data/derivatives/*.json
+data/derivatives/*.csv
+data/external/*.npy
+data/external/*.pdf
+!data/**/README.md
+
+# notebooks caches
+.ipynb_checkpoints/
